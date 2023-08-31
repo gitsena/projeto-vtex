@@ -1,0 +1,31 @@
+@import "../../styles/sass/main.scss";
+
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    .carouselButton {
+        color: $--white;
+        padding: 10px;
+        border: none;
+        font-size: $bigText;
+        outline: none;
+        transition: background-color 0.3s;
+        cursor: pointer;
+    }
+
+    .carouselButton:hover {
+        background-color: $--ice;
+    }
+
+    .carouselContent {
+        display: flex;
+        gap: 45px;
+        height: 600px;
+        align-items: center;
+        max-width: 1200px;
+    }
+}

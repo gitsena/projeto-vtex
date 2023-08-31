@@ -1,0 +1,49 @@
+@import "../../styles/sass/main.scss";
+
+.container {
+  padding: 20px 80px;
+  height: 800px;
+
+  .colPartner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 155px;
+  }
+
+  .colProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 155px;
+  }
+
+  .showAll {
+    text-align: center;
+    color: $--black;
+    font-size: $bigText;
+    font-weight: 700;
+    line-height: normal;
+    margin: -89px 0px 80px 0px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    gap: 58px;
+
+    .line {
+      width: 360px;
+      height: 1px;
+      background-color: $--white-2;
+    }
+
+    h3 {
+      font-size: $subtitle;
+      color: $--pink-primary;
+      font-weight: 700;
+      line-height: 0;
+    }
+  }
+}

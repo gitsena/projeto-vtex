@@ -1,0 +1,35 @@
+@import "../../../styles/sass/main.scss";
+
+.sectionNavBar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex-direction: row;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0px 40px;
+  }
+
+  .containerMenu {
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    gap: 20px;
+
+    .iconMenu {
+      width: 32px;
+      height: 32px;
+      padding: 8px;
+      cursor: pointer;
+    }
+  }
+
+  .logo {
+    width: auto;
+    height: 60px;
+    position: relative;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+}

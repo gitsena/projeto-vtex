@@ -1,0 +1,19 @@
+@import '../../styles/sass/main.scss';
+
+.footer {
+  display: flex;
+  background-color: $--black;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  outline: auto;
+
+  span {
+    color: $--white;
+    font-size: $x_small_text;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}

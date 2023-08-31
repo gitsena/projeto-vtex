@@ -1,0 +1,16 @@
+@import "../../styles/sass/main.scss";
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 60px;
+  background-color: $--pink-primary;
+  color: $--white;
+  font-size: $text;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

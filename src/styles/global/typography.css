@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+}

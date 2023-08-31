@@ -1,0 +1,72 @@
+@import '../../../styles/sass/main.scss';
+
+.footerHome {
+  height: 325px;
+  background-color: $--black;
+  color: $--white;
+  font-size: 13px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  padding: 40px 80px;
+
+  h4 {
+    color: $--white;
+    font-size: $text;
+    font-weight: 700;
+  }
+
+  p {
+    cursor: pointer;
+    color: $--white;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+  }
+
+  .colContacs {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    line-height: 21px;
+
+    .iconsContact {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      align-items: center;
+
+      a{
+        cursor: pointer;
+      }
+
+      img {
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+
+  .infoFooter {
+    display: grid;
+    grid-template-rows: repeat(6, 0fr);
+
+  }
+
+  .formPayment {
+    row-gap: 5px;
+    display: flex;
+    flex-direction: column;
+  
+    img{
+      cursor: pointer;
+    }
+  }
+
+
+  .signUp {
+    margin-left: auto;
+  }
+
+
+
+}

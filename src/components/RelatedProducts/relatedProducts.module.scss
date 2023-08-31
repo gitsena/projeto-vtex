@@ -1,0 +1,30 @@
+@import "../../styles/sass/main.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+
+    .line {
+      width: 360px;
+      height: 1px;
+      background-color: $--white-2;
+    }
+
+    h3 {
+      font-size: $subtitle;
+      color: $--pink-primary;
+      font-weight: 700;
+      line-height: 0;
+    }
+  }
+}

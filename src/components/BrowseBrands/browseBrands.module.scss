@@ -1,0 +1,50 @@
+@import "../../styles/sass/main.scss";
+
+.browseBrands {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: $--white;
+  justify-content: center;
+
+  h1 {
+    font-size: $subtitle;
+    color: $--pink-primary;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .container {
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $--white;
+    padding: 40px 80px;
+
+    .CardCircle {
+      width: 211px;
+      height: 211px;
+      background-color: $--ice;
+      border-radius: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+
+      .iconTopic {
+        width: 172px;
+        height: 62px;
+      }
+    }
+
+    .btnNext {
+      position: absolute;
+      right: 45px;
+    }
+  }
+}

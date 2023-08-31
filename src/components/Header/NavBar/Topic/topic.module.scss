@@ -1,0 +1,37 @@
+@import "../../../../styles/sass/main.scss";
+
+.container {
+  display: flex;
+  background-color: $--white;
+  padding: 20px 0px;
+  width: 100%;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+
+  p {
+    color: $----gray-1;
+    padding: 8px;
+    font-weight: 600;
+    font-size: $small_text;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      color: $--pink-primary;
+      transition: all 0.2s ease-out;
+    }
+  }
+
+  .signature {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}

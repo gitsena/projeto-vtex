@@ -1,0 +1,36 @@
+@import "../../../../styles/sass/main.scss";
+
+.container {
+  display: flex;
+  background-color: $--white;
+  padding: 20px 0px;
+  width: 100%;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+
+  div {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+
+    p {
+      color: $----gray-1;
+      padding: 8px;
+      font-weight: 600;
+      font-size: $small_text;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    span {
+      color: $--pink-primary;
+    }
+  }
+}

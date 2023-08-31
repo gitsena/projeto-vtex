@@ -1,0 +1,35 @@
+@import "../../../styles/sass/main.scss";
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $--white;
+  padding: 20px 0px;
+
+  .grid {
+    display: flex;
+    height: 30px;
+    padding: 10px 58px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $--gray;
+    flex: 1;
+
+    p {
+      color: $----gray-2;
+      padding: 8px 10px;
+      font-weight: 600;
+      font-size: $bigText;
+      width: max-content;
+      cursor: pointer;
+
+      &:hover {
+        color: $--pink-primary;
+        transition: all 0.2s ease-out;
+      }
+    }
+  }
+}
