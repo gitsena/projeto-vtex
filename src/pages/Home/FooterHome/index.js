@@ -3,7 +3,7 @@ import iconFacebook from "../../../assets/img/facebook.svg";
 import iconInstagram from "../../../assets/img/instagram.svg";
 import iconYoutube from "../../../assets/img/youtube.svg";
 import formPayment from "../../../assets/img/form-pay.svg";
-import news from "../../../assets/img/news.png";
+import { NewsNotification } from "./NewsNotification";
 
 export default function FooterHome() {
   return (
@@ -45,7 +45,7 @@ export default function FooterHome() {
       </div>
 
       <div className={style.signUp}>
-        <img src={news} alt="signUp" />
+        <NewsNotification />
       </div>
     </div>
   );
