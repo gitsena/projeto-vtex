@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/projeto-vtex/static/css/main.ceba1887.css",
+    "main.js": "/projeto-vtex/static/js/main.695994af.js",
+    "static/media/rectangle-250.png": "/projeto-vtex/static/media/rectangle-250.d9c837777ab6fd135695.png",
+    "static/media/image-45.png": "/projeto-vtex/static/media/image-45.cf1af7a1221430937074.png",
+    "static/media/form-pay.svg": "/projeto-vtex/static/media/form-pay.bab21cb907a842337e70ea36071f3d30.svg",
+    "static/media/group-831.svg": "/projeto-vtex/static/media/group-831.acac7156177bf002852256aa34e7db88.svg",
+    "static/media/group.svg": "/projeto-vtex/static/media/group.0f9997d3debc1501852aeb0a6581ab8f.svg",
+    "static/media/instagram.svg": "/projeto-vtex/static/media/instagram.139b06aba0fddcffaa7e0bc2b2c3d7d5.svg",
+    "static/media/truck.svg": "/projeto-vtex/static/media/truck.66af49541d6bc061b8e3502f356eebd8.svg",
+    "static/media/crown-simple.svg": "/projeto-vtex/static/media/crown-simple.e17b54e0bafc87b00fc38f103c2698fe.svg",
+    "static/media/shopping-cart.svg": "/projeto-vtex/static/media/shopping-cart.bd5aa7d50a1e51c2ca715bbb4266d670.svg",
+    "static/media/youtube.svg": "/projeto-vtex/static/media/youtube.de1bd6a0fc3cd3c4afdb26072da86c84.svg",
+    "static/media/next.svg": "/projeto-vtex/static/media/next.360d6cf0b8eccaa56b87289e17fbf88e.svg",
+    "static/media/user-circle.svg": "/projeto-vtex/static/media/user-circle.da7cbfd11b25bce7fac167abe7c43bf9.svg",
+    "static/media/credit-card.svg": "/projeto-vtex/static/media/credit-card.486a2c973e4ce1816c64305be1644a26.svg",
+    "static/media/heart.svg": "/projeto-vtex/static/media/heart.631352a146e5e396a6fc18b17017dd46.svg",
+    "static/media/shield-check.svg": "/projeto-vtex/static/media/shield-check.1bee7d50cf684251cb66bc74f07461eb.svg",
+    "static/media/magnifying-glass.svg": "/projeto-vtex/static/media/magnifying-glass.dd61daf34ee6cb23a58a270ab5329728.svg",
+    "index.html": "/projeto-vtex/index.html",
+    "static/media/facebook.svg": "/projeto-vtex/static/media/facebook.644882107b38858d9e3b78512d846799.svg",
+    "static/media/back-arrow.svg": "/projeto-vtex/static/media/back-arrow.f4a860c72dd3f7a79cae4bc8cd89d175.svg",
+    "static/media/next=arrow.svg": "/projeto-vtex/static/media/next=arrow.e482878b256cea7b8138246195208a89.svg",
+    "main.ceba1887.css.map": "/projeto-vtex/static/css/main.ceba1887.css.map",
+    "main.695994af.js.map": "/projeto-vtex/static/js/main.695994af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceba1887.css",
+    "static/js/main.695994af.js"
+  ]
+}
