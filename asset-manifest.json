@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-vtex/static/css/main.ceba1887.css",
-    "main.js": "/projeto-vtex/static/js/main.695994af.js",
+    "main.css": "/projeto-vtex/static/css/main.163c78b6.css",
+    "main.js": "/projeto-vtex/static/js/main.727006a0.js",
     "static/media/rectangle-250.png": "/projeto-vtex/static/media/rectangle-250.d9c837777ab6fd135695.png",
     "static/media/image-45.png": "/projeto-vtex/static/media/image-45.cf1af7a1221430937074.png",
     "static/media/form-pay.svg": "/projeto-vtex/static/media/form-pay.bab21cb907a842337e70ea36071f3d30.svg",
@@ -22,11 +22,11 @@
     "static/media/facebook.svg": "/projeto-vtex/static/media/facebook.644882107b38858d9e3b78512d846799.svg",
     "static/media/back-arrow.svg": "/projeto-vtex/static/media/back-arrow.f4a860c72dd3f7a79cae4bc8cd89d175.svg",
     "static/media/next=arrow.svg": "/projeto-vtex/static/media/next=arrow.e482878b256cea7b8138246195208a89.svg",
-    "main.ceba1887.css.map": "/projeto-vtex/static/css/main.ceba1887.css.map",
-    "main.695994af.js.map": "/projeto-vtex/static/js/main.695994af.js.map"
+    "main.163c78b6.css.map": "/projeto-vtex/static/css/main.163c78b6.css.map",
+    "main.727006a0.js.map": "/projeto-vtex/static/js/main.727006a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceba1887.css",
-    "static/js/main.695994af.js"
+    "static/css/main.163c78b6.css",
+    "static/js/main.727006a0.js"
   ]
 }
