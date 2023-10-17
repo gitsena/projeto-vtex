@@ -10,13 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+
+      - name: Set up Node.js and Yarn
+        uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
+          node-version: "14.x"
+          registry-url: "https://registry.yarnpkg.com"
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
       - name: Build web-app
-        run: |
-          yarn ci
-          yarn run build
+        run: yarn build
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
