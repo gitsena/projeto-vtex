@@ -1,7 +1,7 @@
 {
   "name": "projeto-vtex",
   "version": "0.1.0",
-  "homepage": "projeto-vtex/",
+  "homepage": "https://gitsena.github.io/projeto-vtex/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
